@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+
+/* Styling Header and Navbar */
+
+.header {
+width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+font-family: 'Raleway',sans-serif;
+  justify-content: center;
+
+  flex-direction: row;
+}
+
+.container {
+    width: calc(100% - 40px);
+
+  max-width:1440px;
+  min-height: 100px;
+  margin: 0 auto;
+  display:flex;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.header .navbar {
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+justify-content: center;
+}
+  .nav-links {
+   list-style-type: none;
+  padding: 0 20px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+/*Designing First Section  */
+
+.section1 {
+  width:100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:center;
+
+}
+
+.section1 .section1-row {
+  width: calc(100% - 40px);
+  max-width:1440px;
+min-height: 500px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+  
+}
+
+.section1-col {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+
+}
+
+.section1 .img {
+  width: 600px;
+  min-height: 400px;
+  background-image: url(illustration-1.svg);
+  display: flex;
+  align-items: center;
+  background-position: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+
+.section1-col .text-1 {
+  color:#070439;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height:50px;
+}
+
+.formrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.formrow .forminput {
+  width: 300px;
+  min-height: 35px;
+  border:1px solid #121212;
+}
+
+.formrow .formrowbtn {
+  background-color:  hsl(224, 93%, 58%);
+  padding: 11px 50px;
+margin: 0 10px;
+border-radius: 2px;
+  border: none;
+  color: white;
+}
+
+
+/*  Building  and Designing Section 2 */
+.section2 {
+  width:100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(bg-curve-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+    flex-wrap: wrap;
+
+  background-repeat: no-repeat;
+}
+
+.section2 .section2-row {
+  width: calc(100% - 40px);
+  max-width:1440px;
+min-height: 500px;
+display: flex;
+align-items: center;
+  flex-wrap: wrap;
+
+justify-content: space-between;
+flex-direction: row;
+  
+}
+
+.section2 .section2-col {
+  width: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+
+}
+
+.section2 .img{
+    width: 600px;
+  min-height: 400px;
+  background-image: url(illustration-2.svg);
+  display: flex;
+  align-items: center;
+  background-position: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+
+.section2-col .text-2 {
+  color:#070439;
+  padding: 5px 0;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height:50px;
+}
+
+.section2-col .lead {
+  color:#070439;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.subtext {
+  color: hsl(170, 45%, 43%);
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-bottom: 1px solid  hsl(170, 45%, 43%);  
+}
+
+.subtext img {
+  margin: 0 3px;
+}
+
+.review {
+  width:330px;
+  background-color: white;
+  min-height: 130px;
+ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+ margin: 20px 0;
+ padding: 20px 30px;
+}
+
+.review .lead {
+  padding: 20px 0;
+}
+
+.review .test {
+    color:#070439;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+text-align: center;
+}
+
+.review img {
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.textrow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 0;
+  min-height: 0;
+}
+
+.bold {
+  font-weight: bold!important;
+}
+.textrow p {
+  padding: 0;
+  margin: 2px 0;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+/*  Designing The Third Section  */
+.section3 {
+  width:100%;
+  min-height: 400px;
+  display: flex;;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(238, 22%, 44%);
+  flex-direction: row;
+}
+
+.section3-row {
+  width: calc(100% - 40px);
+  max-width:1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  }
+
+
+  .section3 .section3-col {
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+
+}
+
+  .section3 .section3-col2 {
+  width: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+
+}
+
+
+
+.section3-col .large {
+  color:white;
+  font-weight: bold;
+  font-family: 'Open Sans',sans-serif;
+
+}
+
+.section3-col .lead {
+  color:white;
+  font-weight: normal;
+  font-family: 'Open Sans',sans-serif;
+
+}
+
+
+.section3 .column {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.column .colinput {
+  width:530px;
+min-height: 50px;
+}
+
+.column .colbtn {
+  background-color:  hsl(224, 93%, 58%);
+  padding: 13px 40px;
+border-radius: 2px;
+margin: 15px 0;
+  border: none;
+  color: white;
+}
+
+/* Designing The Footer */
+.footer {
+  width:100%;
+  min-height: 500px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(243, 87%, 12%);
+}
+
+.footer .footerow {
+    width: calc(100% - 40px);
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footerlogo {
+      width: calc(100% - 40px);
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100px;
+  justify-content: flex-start;
+}
+
+.footer .footerbox {
+  width:200px;
+  min-height: 200px;
+  background-color: transparent;
+  display: flex;
+  color:white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footerbox ul {
+  display: flex;
+  flex-direction: column;
+align-self:center;
+}
+
+.footerbox ul li {
+  list-style-type: none;
+margin: 10px 0;
+
+}
+
+.footerbox ul li a {
+color:white;
+text-decoration: none;
+}
